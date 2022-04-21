@@ -742,6 +742,7 @@ strong {
 
 .about .section-right {
   background: #2b2c2c;
+  overflow: hidden;
 }
 
 .skills {
