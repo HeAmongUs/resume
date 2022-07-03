@@ -420,14 +420,14 @@ strong {
 }
 
 [data-tooltip]::after {
-  font-weight: normal;
+  font-weight: bold;
   content: attr(data-tooltip);
   position: absolute;
   max-width: 500px;
   left: 0;
   top: 0;
   background: #e0a80d;
-  color: #eee;
+  color: #333;
   border-radius: 10px;
   display: none;
   padding: 10px;
